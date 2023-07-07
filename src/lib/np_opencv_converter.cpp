@@ -11,6 +11,7 @@ namespace fs { namespace python {
 static int py_init() {
   Py_Initialize();
   import_array();
+  return 0;
 }
 
 // Singleton init and export converters

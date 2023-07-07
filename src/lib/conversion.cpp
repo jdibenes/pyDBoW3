@@ -10,6 +10,7 @@
 static int init()
 {
     import_array();
+    return 0;
 }
 
 static int failmsg(const char *fmt, ...)
@@ -198,6 +199,7 @@ NDArrayConverter::NDArrayConverter() { init(); }
 int NDArrayConverter::init()
 {
     import_array();
+    return 0;
 }
 
 cv::Mat NDArrayConverter::toMat(const PyObject *o)

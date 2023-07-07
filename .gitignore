@@ -27,3 +27,8 @@
 *.exe
 *.out
 *.app
+
+build
+install/DBow3/lib
+install/DBow3/include
+
