@@ -32,3 +32,4 @@ build
 install/DBow3/lib
 install/DBow3/include
 
+/src/.vscode
