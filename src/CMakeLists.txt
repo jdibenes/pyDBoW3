@@ -6,7 +6,7 @@ FATAL: In-source builds are not allowed.
 ")
 endif()
 
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 3.5)
 project(pyDBoW3)
 
 # Project version
